@@ -12,6 +12,7 @@ import com.jihyuunn.coderswag.Model.Category
 import com.jihyuunn.coderswag.R
 
 class CategoryRecycleAdapter(val context: Context, val categories: List<Category>, val itemClick: (Category) -> Unit) : RecyclerView.Adapter<CategoryRecycleAdapter.Holder>() {
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Holder {
         val view = LayoutInflater.from(context).inflate(R.layout.category_tiem, parent, false)
         return Holder(view, itemClick)
