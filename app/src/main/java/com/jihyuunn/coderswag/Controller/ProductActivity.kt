@@ -13,7 +13,7 @@ class ProductActivity : AppCompatActivity() {
 
         intent.getStringExtra(EXTRA_CATEGORY)
 
-        
+
     }
 
 }
